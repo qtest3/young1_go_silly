@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/Han-Ya-Jun/qrcode2console"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/utils"
 )
 
 type Sender interface {

@@ -14,8 +14,8 @@ import (
 
 	"github.com/axgle/mahonia"
 	"github.com/beego/beego/v2/adapter/httplib"
-	"github.com/qtest3/sillyGirl/core"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/core"
+	"github.com/qtest3/young1_go_silly/utils"
 	"github.com/gin-gonic/gin"
 )
 

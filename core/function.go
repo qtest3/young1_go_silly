@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 
 	"github.com/beego/beego/v2/core/logs"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/utils"
 )
 
 var total uint64 = 0

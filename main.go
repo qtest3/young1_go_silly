@@ -8,8 +8,8 @@ import (
 
 	"github.com/DeanThompson/ginpprof"
 	"github.com/beego/beego/v2/core/logs"
-	"github.com/qtest3/sillyGirl/core"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/core"
+	"github.com/qtest3/young1_go_silly/utils"
 )
 
 func main() {

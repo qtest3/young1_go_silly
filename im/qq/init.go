@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/beego/beego/v2/adapter/logs"
-	"github.com/qtest3/sillyGirl/core"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/core"
+	"github.com/qtest3/young1_go_silly/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 )

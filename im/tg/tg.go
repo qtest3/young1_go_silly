@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/beego/beego/v2/core/logs"
-	"github.com/qtest3/sillyGirl/core"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/core"
+	"github.com/qtest3/young1_go_silly/utils"
 	"golang.org/x/net/proxy"
 	tb "gopkg.in/telebot.v3"
 )

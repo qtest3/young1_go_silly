@@ -1,13 +1,13 @@
 package main
 
 import (
-	_ "github.com/qtest3/sillyGirl/develop/boltdb"
+	_ "github.com/qtest3/young1_go_silly/develop/boltdb"
 	_ "github.com/qtest3/young1_go_ql"
-	_ "github.com/qtest3/sillyGirl/im/qq"
-	_ "github.com/qtest3/sillyGirl/im/tg"
-	_ "github.com/qtest3/sillyGirl/im/wxmp"
-	_ "github.com/qtest3/sillyGirl/im/wx"
-	//_ "github.com/qtest3/sillyGirl/develop/jd_price"
+	_ "github.com/qtest3/young1_go_silly/im/qq"
+	_ "github.com/qtest3/young1_go_silly/im/tg"
+	_ "github.com/qtest3/young1_go_silly/im/wxmp"
+	_ "github.com/qtest3/young1_go_silly/im/wx"
+	//_ "github.com/qtest3/young1_go_silly/develop/jd_price"
 	_ "github.com/qtest3/young1_go_jd"
-	_ "github.com/qtest3/sillyGirl/develop/cable"
+	_ "github.com/qtest3/young1_go_silly/develop/cable"
 )

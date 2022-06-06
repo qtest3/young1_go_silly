@@ -1,4 +1,4 @@
-module github.com/qtest3/sillyGirl
+module github.com/qtest3/young1_go_silly
 
 go 1.16
 

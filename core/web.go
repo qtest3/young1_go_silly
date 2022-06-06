@@ -14,7 +14,7 @@ import (
 
 	"github.com/beego/beego/v2/adapter/logs"
 	"github.com/beego/beego/v2/client/httplib"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/utils"
 	"github.com/dop251/goja"
 	"github.com/gin-gonic/gin"
 )
@@ -160,7 +160,7 @@ app.get("/", (req, res) => {
 	// res.status(404).send("页面找不到了")
 
 	// 跳转指定网页
-	// res.redirect("https://github.com/qtest3/sillyGirl")
+	// res.redirect("https://github.com/qtest3/young1_go_silly")
 })
 
 // 响应普通文本

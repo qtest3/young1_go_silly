@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/beego/beego/v2/adapter/httplib"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/utils"
 )
 
 var Duration time.Duration
@@ -20,7 +20,7 @@ func Init() {
 	if err != nil {
 		os.MkdirAll(DataHome, os.ModePerm)
 	}
-	ReadYaml(utils.ExecPath+"/conf/", &Config, "https://raw.githubusercontent.com/qtest3/sillyGirl/main/conf/demo_config.yaml")
+	ReadYaml(utils.ExecPath+"/conf/", &Config, "https://raw.githubusercontent.com/qtest3/young1_go_silly/main/conf/demo_config.yaml")
 	InitReplies()
 	initToHandleMessage()
 	file, err := os.Open(DataHome + "/sets.conf")

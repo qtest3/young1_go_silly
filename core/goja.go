@@ -11,7 +11,7 @@ import (
 
 	"github.com/beego/beego/v2/adapter/httplib"
 	"github.com/beego/beego/v2/adapter/logs"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/utils"
 	"github.com/denisbrodbeck/machineid"
 	"github.com/dop251/goja"
 )

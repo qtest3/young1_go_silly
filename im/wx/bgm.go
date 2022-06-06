@@ -1,7 +1,7 @@
 package wx
 
 import (
-	"github.com/qtest3/sillyGirl/core"
+	"github.com/qtest3/young1_go_silly/core"
 )
 
 var wx = core.MakeBucket("wx")

@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/beego/beego/v2/adapter/httplib"
-	"github.com/qtest3/sillyGirl/utils"
+	"github.com/qtest3/young1_go_silly/utils"
 )
 
 func GitPull(filename string) (bool, error) {
@@ -52,7 +52,7 @@ func CompileCode() error {
 }
 
 func Download() error {
-	url := "https://github.com/qtest3/sillyGirl/releases/download/main/sillyGirl_linux_"
+	url := "https://github.com/qtest3/young1_go_silly/releases/download/main/sillyGirl_linux_"
 	if sillyGirl.GetBool("downlod_use_ghproxy", false) { //
 		url = "https://mirror.ghproxy.com/" + url
 	}
